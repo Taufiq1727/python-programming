@@ -9,6 +9,6 @@ print(name[:4])#same as 0:4
 print(name[1:])#same as 1:5
 
 #strings can skip some letters by following syntax
-string = "hello world"
-skip = string[1:3:2]
+string = "helloworldiamTaufiq"
+skip = string[1:10:2]
 print(skip)
