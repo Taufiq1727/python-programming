@@ -30,6 +30,10 @@ l5 = [1,34,56,76,11]
 l5.remove(34)#removes 34 from the list
 print(l5)
 
+extra_list = [53,23,45]
+lists.extend(extra_list)#appends the value at the existing lists
+print(lists)
+
 
 
 

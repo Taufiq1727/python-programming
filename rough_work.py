@@ -1,7 +1,5 @@
-l = ["harry ", "rohan", "taufiq", "simran"]
-name = input("enter your name")
+import pyttsx3
 
-if(name in l):
-    print("its there")
-else:
-    print("not there")
+engine = pyttsx3.init()
+engine.say("Abhi is chakka and give ass to everyone in mejestic and fuck a dog in street")
+engine.runAndWait()

@@ -10,4 +10,6 @@ marks.update({"harry ": 99,"simran ": 100})#updates the marks from the dict
 print(marks)
 
 print(marks.get("taufiq2"))#prints none
-print(marks["taufiq2"])#error
+# print(marks["taufiq2"])#error
+marks.pop("taufiq")
+print(marks)
